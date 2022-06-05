@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+  name = Ruben Queiros
+  email = foo@bar.null
+
+[alias]
+  graph = log --all --graph --decorate --oneline
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential

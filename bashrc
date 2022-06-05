@@ -93,6 +93,8 @@ alias la='ls -A'
 alias l='ls -CF'
 
 #My custom aliases
+alias up='cd ..'
+
 alias vbs='VBoxManage startvm'
 alias vbc='VBoxManage controlvm'
 
